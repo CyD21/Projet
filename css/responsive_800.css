@@ -1,0 +1,100 @@
+@media screen and (max-width: 800px) 
+{
+    #corps {
+        width: 90%;
+        font-size: 0.6em;
+    }
+/** Styles de l'entête **/
+    #entete {
+        background-image: none;
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #logo {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+/** Styles du menu**/
+    
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #4a0006;
+    }
+    .menu a {
+        display: block;
+        text-align: center;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu a:hover {
+        font-size: 1.1em;
+    }
+    label {
+        width: 100%;
+        border-radius: 10px;
+        background-color: #4a0006;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    #menu_resp:checked + .menu {
+        display: flex;
+    }
+
+/**Styles de la section**/
+    article {    
+        width: 100%;
+        padding: 10px;
+        text-align: justify;
+        margin: 0px auto 10px auto;
+    }
+    article img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #colonne_gauche {
+        display: none;
+    }
+/** Styles du pied de page **/
+    #conteneur {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .element:nth-child(1) {
+        width: 90%;
+    }
+    .element:nth-child(2) {
+        width: 90%;
+    }
+    .element:nth-child(3) {
+        width: 90%;
+    }
+} 
+/** Style du formulaire **/
+/**=====================**/
+
+#formulaire {
+    width: 100%;
+    text-align: center;
+}
+#formulaire label {
+
+    width: 100px;
+    font-size: 0.8em;
+    background-color: #fff;
+}
+#formulaire input {
+    font-size: 0.8em;
+}

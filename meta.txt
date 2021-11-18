@@ -1,0 +1,12 @@
+<meta name="Content-Type" content="UTF-8">
+<meta name="Content-Language" content="fr">
+<meta name="Description" content="Site de découverte des Grands Vins de Bourgogne.">
+<meta name="Subject" content="Les Grands vins de bourgogne">
+<meta name="Copyright" content="cyrille DUTOIT">
+<meta name="Author" content="Cyrille DUTOIT">
+<meta name="Publisher" content="Cyrille DUTOIT">
+<meta name="Identifier-Url" content="https://www.lesgrandsvinsdebourgogne.dynactif.fr">
+<meta name="Reply-To" content="cyrille.dutoit@dynactif.fr">
+<meta name="Revisit-After" content="15 days">
+<meta name="Robots" content="all">
+<meta name="Rating" content="restricted">

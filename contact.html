@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!-- Feuille de style pour les résolution inférieur à 1280px-->
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/responsive_1280.css" type="text/css">
+    <!--========================================================-->
+    <!-- Feuille de style pour les résolution inférieur à 800px -->
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="css/responsive_800.css" type="text/css">
+    <!--========================================================-->
+    <!-- Feuille de style pour les animations css -->
+    <link rel="stylesheet" href="css/animation.css" type="text/css">
+    <!--========================================================-->
+    <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <title>Les grands vins de Bourgogne</title>
+</head>
+<body>
+        <!-- Début du corps de page -->
+        <div id="corps">
+            <!--===============================================================================================-->
+            <!-- Début de l'entête du site -->
+                <header id="entete">
+                    <img id="logo" src="images/logo.png" alt="Logo" title="Les Grands Vins de Bourgogne">
+                </header>
+                <!-- Fin de l'entête du site -->
+            <!--================================================================================================-->    
+                <!-- Menu de navigation -->
+                <nav id="navigation">
+                        <label for="menu_resp"><img src="images/bouton_menu.png" alt="Menu" title="menu"></label>
+                        <input type="checkbox" id="menu_resp">
+                        <div class="menu">
+                            <a href="index.html">Accueil</a>
+                            <a href="vinsrouges.html">Les vins rouges</a>
+                            <a href="vinsblancs.html">Les vins blancs</a>
+                            <a href="grandscrus.html">Les Grands crus</a>
+                            <a href="appellations.html">Les appellations</a>
+                            <a class="actif" href="contact.html">Contact</a>
+                        </div>
+                </nav>
+                <!-- Fin du menu de navigation -->
+            <!--===============================================================================================-->
+                <!-- Début de la section -->
+                <section>
+                    <div class="notitle"><h1>Formulaire de contact</h1></div>
+                    <article>
+                        <div class="notitle"><h2>Formulaire de contact</h2></div>
+                        <div id="formulaire">
+                            <form method="post" action="mailto@cyrille.dutoit@gmail.com">
+                                <p>Vous voulez des renseignements, vous avez des questions, n'hésitez pas à nous contacter<br />via le formulaire ci-dessous</p>
+                                <div>        
+                                    <label>Votre prénom:</label>
+                                    <input type="text" id="nom" name="nom" value="" autofocus><br />
+                                    <label>Votre nom:</label>
+                                    <input type="text" id="prenom" name="prenom" value=""><br />
+                                    <label>Vous êtes né le:</label>
+                                    <input type="date" id="datedenaissance" name="datedenaissance" value=""><br />
+                                    <label>Votre adresse email:</label>
+                                    <input type="email" id="email" name="email" value=""><br />
+                                    <label>Confirmez votre email:</label>
+                                    <input type="email" id="emailconfirm" value=""><br />
+                                    <label>Votre message:</label><br />
+                                    <textarea id="message" rows="10" cols="50" maxlength="250" spellcheck="true"></textarea><br />
+                                </div>
+                                <div class="check">
+                                    <div><input class="checkbox_form" type="checkbox" name="condition" value=""></div>
+                                    <div id="conditions">J'accepte les conditions d'utilisation</div>
+                                </div>
+                                <div id="bouton">
+                                    <button name="envoyer">Envoyer</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div id="conteneur_box_article">
+                            <div class="box_article"><img class="anim1s" src="images/Gevrey-Chambertin.jpg" alt="Photo de Gevrey-Chambertin" title="Chevrey-Chambertin"></div>
+                            <div class="box_article"><img class="anim2s" src="images/Hospices-de-Beaune-Bourgogne.jpg" alt="Photo des Hospices de Beaune" title="hospices de beaune"></div>
+                            <div class="box_article"><img class="anim1s" src="images/Route-des-Grands-Crus1.jpg" alt="Photo de la route des grands crus" title="Route des Grands Crus"></div>
+                        </div>
+                    </article>
+                    <aside id="colonne_gauche">
+                        <div class="conteneur_aside">
+                            <div class="boxtitre">Quelques liens utiles...</div>
+                            <div>
+                                <a href="https://www.bourgogne-tourisme.com/" target="_blank">Office de tourisme</a>
+                                <a href="https://www.vinotrip.com/fr/route-des-vins-bourgogne" target="_blanK">Voyager en Bourgogne</a>
+                                <a href="https://www.vins-bourgogne.fr/actualites/dernieres-nouvelles/dernieres-nouvelles,2969,12252.html" target="_blank">Actualités vins de Bourgogne</a>
+                            </div>
+                        </div>
+                        <div class="conteneur_aside">
+                            <img src="images/tonneau.jpg" title="Cave de Bourgogne" alt="Cave de Bourgogne">
+                        </div>
+                        <div class="conteneur_aside">
+                            <img src="images/grappe.png" title="Grappe de raisins" alt="Grappe de raisins">
+                        </div>
+                    </aside>
+            </section>
+                <!-- Fin de la section -->
+    <!--===============================================================================================-->
+    <!-- Début du pied de page -->
+        <footer>
+            <div id="conteneur">
+                <div class="element">
+                    <p class="boxtitre">Idées de visite...</p>
+                        <ul>
+                            <li><a href="http://hospices-de-beaune.com" target="_Blank">hospices-de-beaune</a></li>
+                            <li><a href="https://closdevougeot.fr" target="_Blank">Château du Clos Vougeot</a></li>
+                            <li><a href="https://www.chateau-marsannay.com" target="_Blank">Château de Marsannay</a></li>
+                            <li><a href="https://www.chateauxdebourgognefranchecomte.com/" target="_Blank">Château de Bourgogne et Franche-Compté</a></li>
+                            <li><a href="https://www.dijon.fr/Dijon-Capitale/Gastronomie-vin/La-Cite-internationale-de-la-gastronomie-et-du-vin2" target="_Blank">Cité internationale de la gastronomie et du vin</a></li>
+                        </ul>
+                </div>
+                <div class="element">
+                    <p class="boxtitre">Contact</p>
+                    <div id="contact">
+                        <p>
+                        <b>Adresse:</b><br/>Les grands vins de bourgogne<br />3b rue du chaignot 21130 Tréclun<br />
+                        </p>
+                        <br />
+                        <p>
+                        <b>Téléphone:</b><br />+336 11 68 64 96
+                        </p>
+                    </div>
+                </div>
+                <div class="element">
+                    <p class="boxtitre">Réseaux sociaux</p>
+                    <div>
+                    <a href="https://www.facebook.com" target="_blank"><img class="reseaux" src="images/reseaux/facebook.png" alt="Icone Facebook" Title="facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img class="reseaux" src="images/reseaux/twitter.png" alt="Icone Twitter" title="Twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank"><img class="reseaux" src="images/reseaux/instagram.png" alt="Icone Instagram" title="Instagram"></a>
+                    <a href="https://www.pinterest.com" target="_blank"><img class="reseaux" src="images/reseaux/pinterest.png" alt="Icone Pinterest" title="Pinterest"></a>
+                    </div>
+                </div> 
+            </div>
+        </footer>
+    <!-- Fin du pied de page -->
+    <!--===============================================================================================-->
+    <!-- Début copyright -->
+        <div id="copyright">
+            Site réalisé par<a>&nbsp;Cyrille DUTOIT&nbsp;</a>copyright 2021
+        </div>
+    <!-- Fin du copyright -->
+    <!--===============================================================================================-->
+    </div>
+    <!-- Fin corps du site -->
+</body>
+</html>

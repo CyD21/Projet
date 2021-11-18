@@ -1,0 +1,48 @@
+@media screen and (max-width: 1280px) 
+{
+    #corps {
+        width: 80%;
+        font-size: 0.8em;
+    }
+/** Styles de l'entête **/
+    #entete {
+        border-radius: 10px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    #logo {
+        margin-left: 5px;
+    }
+/**Styles de la section**/
+    article {    
+        width: 100%;
+        padding: 10px;
+        text-align: justify;
+        margin: 0px auto 10px auto;
+    }
+    article img {
+        width: 300px;
+        margin-bottom: 10px;
+    }
+/** Styles du pied de page **/
+    #conteneur {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .element {
+        width: 90%;
+    }
+    .element:nth-child(1) {
+        width: 30%;
+    }
+    .element:nth-child(2) {
+        width: 30%;
+    }
+    .element:nth-child(3) {
+        width: 30%;
+    }
+    .element:nth-child(3) img {
+        width: 40px;
+    }
+} 

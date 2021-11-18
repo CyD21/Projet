@@ -1,0 +1,407 @@
+/**Styles polices personnalisé**/
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/montserrat.woff2') format('woff2'),
+         url('../fonts/montserrat.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/********************************************/
+/** Class animation css *********************/
+/********************************************/
+.anim1s {
+	-webkit-animation: anim 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: anim 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.anim2s {
+	-webkit-animation: anim 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: anim 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/********************************************/
+/** Fin des Class animation css *************/
+/********************************************/
+
+/********************************************/
+/**styles des balises HTML*******************/
+/********************************************/
+body {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font: 1em 'montserrat';
+}
+h1 {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    font-size: 24px;
+    color: #4a0006;
+}
+h2 {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #4a0006;
+}
+h3 {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7b6771;
+}
+h4 {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+}
+h5 {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+}
+h6 {
+    font-family: 'montserrat', Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+}
+/********************************************/
+/** Fin des balises HTML*********************/
+/********************************************/
+
+/********************************************/
+/**Styles personnalisés**********************/
+/********************************************/
+
+/** Corps du site **/
+/**===============**/
+
+#corps {
+    width: 1200px;
+    margin: 0px auto 0px auto;
+}
+
+/** Styles de l'entête **/
+/**====================**/
+
+#entete {
+    background-color: #fff;
+    background-image: url("../images/photo_vignes.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+#logo {
+    width: 300px;
+}
+p {
+    margin: 0px;
+}
+
+/** Styles du menu horizontal **/
+/**===========================**/
+label, #menu_resp {
+    display: none;
+}
+.menu {
+    background-color: #4a0006;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    margin: 5px;
+}
+.menu a:hover {
+    background-color: #bfb691;
+    color: #4a0006;
+}
+.actif {
+    background-color: #bfb691;
+    color: #4a0006  !important;
+    font-weight: bold;
+}
+/** Styles de la section **/
+/**======================**/
+
+/** Style des tableaux pages grand crus**/
+
+.grandcru h4 {
+    background-color: #bfb691;
+    color: #4a0006;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.grandcru article {
+    display: flex;
+    flex-direction: column;
+
+}
+.grandcru article img {
+    width: 100%;
+}
+.grandcru table {
+    background-color: #bfb691;
+    width: 100%;
+    min-width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.grandcru table th {
+    text-align: center;
+    padding: 10px;
+}
+.grandcru table td {
+    padding: 10px;
+}
+
+.tr1 {
+    background-color: #4a0006;
+    color: #fff;
+}
+.tr2 {
+    color: #4a0006;
+}
+/*****************************************/
+
+section {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-top: 5px;
+}
+article {
+    background-color: #fff;
+    float: left;
+    width: 75%;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+article img {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+aside {
+    background-color: #fff;
+    border-right: 1px solid #4a0006;
+    width: 25%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+#colonne_gauche {
+    display: flex;
+    flex-direction: column;
+}
+#colonne_gauche a {
+    color: #4a0006;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+#colonne_gauche a:hover {
+    color: #bfb691;
+}
+.conteneur_aside {
+    padding: 0px;
+}
+.conteneur_aside img {
+    width: 200px;
+}
+.conteneur_aside:nth-child(1) {
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.conteneur_aside:nth-child(1) a {
+    padding-left: 20px;
+}
+.conteneur_aside:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.conteneur_aside:nth-child(2) img {
+    border-radius: 10px;
+    width: 100%;
+}
+.conteneur_aside:nth-child(3) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.conteneur_aside:nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.conteneur_aside:nth-child(4) img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+#conteneur_box_article {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box_article {
+    padding: 0px;
+}
+.box_article img {
+    width: 100%;
+}
+.box_article:nth-child(1) {
+    padding: 5px;
+}
+.box_article:nth-child(2) {
+    padding: 5px;
+}
+.box_article:nth-child(3) {
+    padding: 5px;
+}
+/** Styles du pied de page **/
+/**========================**/
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #bfb691;
+    border-radius: 10px;
+    margin: 0px;
+}
+.boxtitre {
+    background-color: #4a0006;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.element {
+    display: flex;
+    vertical-align: top;
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
+    width: 30%;
+    font-size: 0.8em;
+}
+.element ul {
+    margin-top: 0px;
+}
+.element:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+.element:nth-child(1) ul {
+    list-style-type: none;
+}
+.element:nth-child(1) ul a {
+    color: #4a0006;
+    text-decoration: none;
+}
+.element:nth-child(1) ul a:hover {
+    color: #362b31;
+}
+.element:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    color: #4a0006;
+    padding: 0px 10px 20px 10px;
+}
+.element:nth-child(3) {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0px 10px 20px 10px;
+}
+.reseaux {
+    width: 50px;
+    padding: 5px;
+    margin-top: 15px;
+}
+#contact {
+    padding-left: 5px;
+}
+/** Styles du copyright **/
+/**=====================**/
+
+#copyright {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    width: 100%;
+    margin: 0px auto 0px auto;
+    color: #4a0006;
+}
+/** Style du formulaire **/
+/**=====================**/
+#bouton button {
+    font-family: 'montserrat';
+    border-radius: 10px;
+    background-color: #4a0006;
+    color: #bfb691;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+}
+#bouton button:hover {
+    background-color: #bfb691;
+    color: #4a0006;
+}
+#formulaire p  {
+    padding: 10px;
+}
+div input {
+    width: 200px;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #bfb691;
+    border: 0px;
+}
+#formulaire label {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.check {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: #bfb691;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+div textarea {
+    margin-top: 10px;
+    width: 80%;
+}
+.checkbox_form {
+    width: 20px;
+}
+#conditions {
+    margin-top: 10px;
+}
+.notitle {
+    display: none;
+}
+
+/****************************************************/
+/**Fin des styles personnalisés**********************/
+/****************************************************/
+
+
